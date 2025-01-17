@@ -4,7 +4,7 @@ export const Button = ({ children, theme, className, href }) => {
     theme === "primary"
       ? "bg-p-3 hover:bg-p-2"
       : theme === "secondary"
-      ? "bg-n-7 hover:bg-p3"
+      ? "bg-n-7 hover:bg-p-3"
       : "";
 
   const renderButton = () => (
